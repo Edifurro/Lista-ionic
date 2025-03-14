@@ -1,0 +1,62 @@
+[
+     {
+       "breed": "Siamés",
+       "subtitle": "Vocal y cariñoso",
+       "description": "Los gatos siameses son conocidos por ser muy vocales y cariñosos con sus dueños.",
+       "image": "siamese.jpg"
+     },
+     {
+       "breed": "Maine Coon",
+       "subtitle": "Gentil y juguetón",
+       "description": "Los Maine Coon son gatos grandes, gentiles y muy juguetones.",
+       "image": "maine_coon.jpg"
+     },
+     {
+       "breed": "Persa",
+       "subtitle": "Tranquilo y elegante",
+       "description": "Los gatos persas son tranquilos, elegantes y disfrutan de la vida relajada.",
+       "image": "persian.jpg"
+     },
+     {
+       "breed": "Bengalí",
+       "subtitle": "Energético y curioso",
+       "description": "Los gatos bengalíes son muy energéticos, curiosos y tienen un pelaje exótico.",
+       "image": "bengal.jpg"
+     },
+     {
+       "breed": "Ragdoll",
+       "subtitle": "Dócil y afectuoso",
+       "description": "Los Ragdoll son gatos dóciles y extremadamente afectuosos con sus dueños.",
+       "image": "ragdoll.jpg"
+     },
+     {
+       "breed": "Esfinge",
+       "subtitle": "Extrovertido y cariñoso",
+       "description": "Los gatos esfinge son extrovertidos, cariñosos y no tienen pelaje.",
+       "image": "sphynx.jpg"
+     },
+     {
+       "breed": "British Shorthair",
+       "subtitle": "Tranquilo y leal",
+       "description": "Los British Shorthair son gatos tranquilos, leales y de pelaje denso.",
+       "image": "british_shorthair.jpg"
+     },
+     {
+       "breed": "Abisinio",
+       "subtitle": "Activo y juguetón",
+       "description": "Los gatos abisinios son activos, juguetones y tienen un pelaje atigrado.",
+       "image": "abyssinian.jpg"
+     },
+     {
+       "breed": "Siberiano",
+       "subtitle": "Inteligente y afectuoso",
+       "description": "Los gatos siberianos son inteligentes, afectuosos y tienen un pelaje resistente al agua.",
+       "image": "siberian.jpg"
+     },
+     {
+       "breed": "Azul Ruso",
+       "subtitle": "Reservado y leal",
+       "description": "Los gatos azul ruso son reservados, leales y tienen un pelaje plateado-azulado.",
+       "image": "russian_blue.jpg"
+     }
+   ]

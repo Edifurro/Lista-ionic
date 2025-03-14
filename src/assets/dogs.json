@@ -1,0 +1,62 @@
+[
+     {
+       "breed": "Labrador Retriever",
+       "subtitle": "Amigable y extrovertido",
+       "description": "Los Labradores son conocidos por su naturaleza amigable y extrovertida.",
+       "image": "labrador.jpg"
+     },
+     {
+       "breed": "German Shepherd",
+       "subtitle": "Seguro y valiente",
+       "description": "Los Pastores Alemanes son perros seguros y valientes.",
+       "image": "german_shepherd.jpg"
+     },
+     {
+       "breed": "Golden Retriever",
+       "subtitle": "Inteligente y amigable",
+       "description": "Los Golden Retrievers son perros inteligentes y amigables.",
+       "image": "golden_retriever.jpg"
+     },
+     {
+       "breed": "Bulldog",
+       "subtitle": "Dócil y testarudo",
+       "description": "Los Bulldogs son conocidos por su naturaleza dócil y testaruda.",
+       "image": "bulldog.jpg"
+     },
+     {
+       "breed": "Beagle",
+       "subtitle": "Curioso y alegre",
+       "description": "Los Beagles son perros curiosos y alegres.",
+       "image": "beagle.jpg"
+     },
+     {
+       "breed": "Poodle",
+       "subtitle": "Activo y alerta",
+       "description": "Los Poodles son perros activos y alertas.",
+       "image": "poodle.jpg"
+     },
+     {
+       "breed": "Rottweiler",
+       "subtitle": "Leal y seguro",
+       "description": "Los Rottweilers son perros leales y seguros.",
+       "image": "rottweiler.jpg"
+     },
+     {
+       "breed": "Yorkshire Terrier",
+       "subtitle": "Enérgico y cariñoso",
+       "description": "Los Yorkshire Terriers son perros enérgicos y cariñosos.",
+       "image": "yorkshire_terrier.jpg"
+     },
+     {
+       "breed": "Boxer",
+       "subtitle": "Inteligente y amante de la diversión",
+       "description": "Los Boxers son perros inteligentes y amantes de la diversión.",
+       "image": "boxer.jpg"
+     },
+     {
+       "breed": "Dachshund",
+       "subtitle": "Astuto y vivaz",
+       "description": "Los Dachshunds son perros astutos y vivaces.",
+       "image": "dachshund.jpg"
+     }
+   ]
