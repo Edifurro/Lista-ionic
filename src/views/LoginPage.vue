@@ -136,18 +136,7 @@
    };
    
    // Función de logout
-   const logout = async () => {
-     await Preferences.remove({ key: 'isLoggedIn' });
-     await Preferences.remove({ key: 'loginTime' });
-     
-     if (sessionTimeout) {
-       clearTimeout(sessionTimeout);
-     }
-     
-     // Limpiar campos al hacer logout
-     username.value = '';
-     password.value = '';
-   };
+  
    </script>
    
    <style scoped>
