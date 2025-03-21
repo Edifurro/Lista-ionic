@@ -6,6 +6,7 @@
       </ion-toolbar>
     </ion-header>
     <ion-content :fullscreen="true">
+      <div v-if="isAuthenticated">
       <div class="presentacion" style="text-align: center; margin: 3% 20px 2%  ;">
         <p>
           En esta página encontrarás una lista de gatitas con sus respectivas imágenes y descripciones.
@@ -25,6 +26,8 @@
         </ion-card>
         <p style="text-align: center; margin: 10% auto 1px;"> todas las gatitas maullan igual que angel miau </p>
       </div>
+    </div>
+  
     </ion-content>
   </ion-page>
 </template>
@@ -33,11 +36,21 @@
 import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/vue';
 import { IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle } from '@ionic/vue';
 import catsData from '@/assets/cats.json'; // Asegúrate de que el archivo JSON esté en la carpeta correcta
-
+import { useAuth } from '@/composable/useAuth';
+import { useRouter } from 'vue-router';
+import { warning as warningIcon } from 'ionicons/icons';
+const router = useRouter();
+const { isAuthenticated, checkAuth } = useAuth();
 const cats = catsData.map(cat => ({
   ...cat,
   image: new URL(`../assets/${cat.image}`, import.meta.url).href
 }));
+
+checkAuth();
+
+const redirectToLogin = () => {
+  router.push('/login');
+};
 </script>
 
 <style scoped>
